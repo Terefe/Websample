@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Space Travel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--bootstrap source-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        
+        <link rel="stylesheet" href="css/customStyle.css">
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    </head>
+
+
+    <body>
+        <!-- navigation bar -->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-custom">
+            <div class="container">
+                <div class="navbar-header">
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+
+                    <a class="navbar-brand" href="#">Space Travel</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href ="#">Help</a><li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+
+                    <form class="navbar-form navbar-left">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit">
+                                    <i class="glyphicon glyphicon-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <li><a href="sign_up.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                    <li><a href="log_in.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
+                </ul>
+            </div>
+        </nav>  
+
+
+        <!-- carousel-->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" >
+
+                <div class="item active">
+                    <img id = "cimage0" src="http://www.stemjobs.com/wp-content/uploads/2016/05/ThinkstockPhotos-472339618.jpg">
+                </div>
+
+                <div class="item">
+                    <img id = "cimage1" src="http://www.whatitcosts.com/wp-content/uploads/2016/04/space-travel-astronaut.jpg">
+                </div>
+
+                <div class="item">
+                    <img id = "cimage2" src="http://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/08/12/101914026-11-07-11_lynx_telescope.1910x1000.jpg">
+                </div>                    
+
+            </div>
+
+            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+
+        <!-- first grid comes after carousel -->
+        <div class = "container">
+            <div class="row">
+                
+                <!-- offset 1 unit and give 4 unit space for first column -->
+                <div class="col-md-4 col-md-offset-1">
+                    <p class = "lead" > <strong> <h2>Space Travel 2025</h2> </strong></p>
+                    <p>Join us, support us, and become the first to travel space. Explore the deep space </p>
+                    <a href = "#"class = "btn btn-default"><h5> About </h5></a>
+                </div> 
+
+                    <!-- offset i unit and give 4 unit space for second column -->
+                <div class ="col-md-4 col-md-offset-1">
+                     <!-- load image -->
+                    <img  id = "btmImage" class="img-responsive"src = "https://edirisinghecharinda.files.wordpress.com/2016/03/spaceport.jpg?w=980&h=980&crop=1" class="img-rounded" ></img>
+                </div>
+
+            </div> 
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-md-offset-1" >
+                    <img   class="img-responsive"src = "http://3.bp.blogspot.com/-uT_ODavrPJ0/Uae2IBn6dBI/AAAAAAAAB7U/tpB7J5RTZE8/s1600/MSLNASA.jpg" class="img-rounded" ></img>
+                </div>
+
+                <div class="col-md-4 col-md-offset-1">
+                    <p class = "lead"> <strong> <h2> Conquer the Red planet</h2> </strong></p>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 col-md-offset-1">
+                    <p class ="lead"> <strong> <h2> Visit any where in space </h2> </strong></p>
+                    <p>Love to travel? are you a space guy or gal? you are in the right place. Join us now and we'll make your dreams come true.</p>
+                    <a href = "#" class = "btn btn-default"><h5>Join</h5></a>
+                </div>
+
+                <div class="col-md-4 col-md-offset-1">
+
+                    <img   class="img-responsive"src ="https://upload.wikimedia.org/wikipedia/commons/a/ad/Astronaut_working_on_Mars.jpg"class="img-rounded" ></img>
+
+                </div>
+            </div>
+        </div>
+
+        <br /><br /><br /><br />
+       <!-- footer panel sections -->
+        <footer class="footer">
+
+            <footer class="footer">
+
+                <div class="container">
+                    <div class ="row">
+                        <div class = " col-md-2"></div>
+                        <div class = " col-md-3">
+                            <h5 class="text-muted" >ABOUT</h5>
+
+                            <a  href ="#" class="text-info">   <h5 class = "space"> About us </h5></a> 
+                            <a  href ="#" class="text-info">   <h5  class = "space"> Blog </h5></a>
+                            <a  href ="#" class="text-info">   <h5  class = "space"> Privacy policy </h5></a>
+                            <a  href ="#" class="text-info">   <h5  class = "space"> Terms of Services </h5></a>
+                        </div>
+                        <div class = " col-md-3">
+                            <h5 class="text-muted"> HELP </h5>
+
+                            <a  href ="#" class="text-info">   <h5 class = "space"> Help Center  </h5></a> 
+                            <a  href ="#" class="text-info">   <h5  class = "space"> Get Started </h5></a>
+                            <a  href ="#" class="text-info">   <h5  class = "space "> Contact Center </h5></a>
+
+
+                        </div>
+                        <div class = " col-md-3">
+                            <h5 class="text-muted"> CONNECT </h5>
+                            <a  href ="#" class="text-info" >   <h5  class = "space"> Facebook </h5></a>
+                            <a  href ="#" class="text-info">   <h5  class = "space "> Twitter </h5></a>                           
+
+
+                        </div>
+                    </div>
+                    
+                    <!-- create responsive one row column table -->
+                    <div class = "table-responsive">
+                        <table class = "table">
+                            <tbody>
+                            <td class = "text-center">  
+                                <h5  class = "text-muted  glyphicon glyphicon-copyright-mark "> SPACE TRAVEL INC </h5>
+                            </td>
+
+                            </tbody>
+
+
+                        </table>
+                    </div>
+
+                </div>
+
+            </footer>
+
+
+            <script>
+                
+                $(document).ready(function () {
+                    console.log("Ready");
+                    //gets half of window height
+                    var height = (window.innerHeight) / 2;
+                    height = height + 300;
+
+                    //set width and height of carousel images 
+                    for (var i = 0; i < 3; i++)
+                    {
+                        $("#cimage" + i).css({
+                            width: "100%",
+                            height: height
+
+                        });
+                    }
+                    
+                    //style image height
+                    $("#btmImage").css({
+                        //"padding-top":"20px",
+                        "height": "250px"
+                    });
+                    
+                    //creates margin between row
+                    $(".row").css({
+                        "margin-top": "30px"
+                    });
+
+                   /* $(".space").css({
+                        "margin-top": ".5px"
+
+                    });*/
+
+                });
+
+
+            </script>
+    </body>
+
+
+</html>
+
