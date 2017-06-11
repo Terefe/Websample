@@ -1,0 +1,112 @@
+<!doctype>
+<html>
+
+<head>
+	<title> Software Engineer </title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<script src="app/lib/paper.js"></script>
+	<script src="app/network.js"></script>
+        <script src="app/Node.js"></script>
+        <script src="app/Link.js"></script>
+</head>
+
+<body>
+    <div>
+                <!-- Navigation Top Bar -->
+    <nav class="navbar navbar-default navbar-custom">
+      <div class="container-fluid">
+          
+        <!-- Menu Items -->
+        <div>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Collaps">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Collaps">
+            <ul class="nav navbar-nav">
+
+              <li>
+                  <a href="#" id ="Generate" > Generate </a> 
+              </li>
+              <li>
+                  <a href="#" id ="Delete" > Delete </a> 
+              </li>
+              <li>
+                  <a href="#" id ="Drag" > Drag </a> 
+              </li>
+              <li>
+                  <a href="#" id ="Addnode" > Add </a> 
+              </li>              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+                
+    </div>
+    
+       <!--  main container -->
+    <div class="container-fluid">
+
+      <!-- main row -->
+      <div class = 'row'>
+
+        <!-- main canvas -->
+        <div class='col-md-8' id='canvas-div'>
+          <canvas id="mycanvas" resize></canvas>
+        </div>
+
+        <div class="col-md-4">
+            
+            <div class ="row">
+                <div class="col-md-2" >
+                    Number
+                </div>
+                <div class="col-md-10" >
+
+                  <input type="text" class="form-control" id = "nodeNum" disabled/>
+
+                </div>
+            </div>
+                
+           <div class ="row">
+                <div class="col-md-2" >
+                  Name
+                </div>
+                <div class="col-md-10" >
+
+                  <input type="text" class="form-control" id = "nodeName" />
+
+                </div>
+              </div> 
+            
+            <div class = 'row'>
+                <div class = 'col-md-2'>
+                    Size
+                </div>
+                <div class = col-md-10>
+                    <input type ='text' class ='form-control' id ='nodeSize'/>
+                </div>
+            </div>
+            
+            <div class = 'row'>
+                <div class = 'col-md-2'>
+                    Color
+                </div>
+                <div class = col-md-10>
+                    <input type ='text' class ='form-control' id ='nodeColor'/>
+                </div>
+            </div>
+            
+        </div>
+     </div>
+      
+    </div>
+</body>
+</html>
