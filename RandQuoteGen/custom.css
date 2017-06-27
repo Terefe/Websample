@@ -1,0 +1,27 @@
+.well{
+
+    margin-top:25%;
+    padding:5%;
+    background-color: rgba(245, 245, 245, .7)
+
+}
+
+#quotes{
+
+    font-family: Times New Roman;  
+    letter-spacing:2px;
+    font-weight:bold;
+}
+
+#names{
+    font-family:Script, Brush Script MT;
+
+}
+
+.btn{
+    background-color: rgba(245, 245, 245, 0);
+    margin-top:10%;
+    font-family: Times New Roman;
+}
+
+
